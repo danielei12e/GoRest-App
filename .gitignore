@@ -6,8 +6,8 @@ packages/*/lib
 # .vscode
 __pycache__/
 .DS_Store
-.env
-.flaskenv
+# .env
+# .flaskenv
 *.pyc
 *.pyo
 # env/
