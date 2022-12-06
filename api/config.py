@@ -5,7 +5,7 @@ from datetime import timedelta
 class BaseConfig():
     GOREST_API_ENDPOINT = 'https://gorest.co.in/public/v2'
     GO_REST_EXCEL_FILENAME = 'goRest_data.xlsx'
-    GO_REST_BUCKETNAME = 'goRestBucket'
+    GO_REST_BUCKETNAME = 'zappa-aj174h1ci'
     STORE_NAME = 'myLastCreator'
 
 

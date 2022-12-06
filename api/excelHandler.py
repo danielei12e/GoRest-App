@@ -10,7 +10,7 @@ load_dotenv()
 
 def createAllGoRestDataInExcel(users, posts, comments, todos):
     try:
-        xlsxFile = xlsxwriter.Workbook(BaseConfig.GO_REST_EXCEL_FILENAME)
+        xlsxFile = xlsxwriter.Workbook(f'/tmp/{BaseConfig.GO_REST_EXCEL_FILENAME}')
         sheetOne = xlsxFile.add_worksheet("Users")
         sheetTwo = xlsxFile.add_worksheet("Posts")
         sheetThree = xlsxFile.add_worksheet("Comments")
